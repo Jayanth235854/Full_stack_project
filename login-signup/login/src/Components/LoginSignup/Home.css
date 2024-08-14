@@ -1,0 +1,40 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 80px;
+    background: #90d6fe;
+    padding-bottom: 30px;
+    width: 600px;
+    height: 500px;
+}
+.hm{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400px;
+    color: rgb(249, 255, 170);
+}
+img{
+    height: 250px;
+}
+.sum-contain{
+    display: flex;
+    gap: 30px;
+    margin:auto;
+}
+.summit{
+    background: #58bdef;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 60px;
+    width: 220px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 700px;
+}

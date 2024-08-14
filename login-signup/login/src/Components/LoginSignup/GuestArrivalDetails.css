@@ -1,0 +1,50 @@
+.guest-arrival-details {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.guest-arrival-details h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.guest-arrival-details form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.guest-arrival-details label {
+    margin-bottom: 8px;
+    color: #333;
+}
+  
+.guest-arrival-details input[type="number"],
+.guest-arrival-details input[type="text"],
+.guest-arrival-details input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+  
+.guest-arrival-details button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.guest-arrival-details button:hover {
+    background-color: #45a049;
+}
+  

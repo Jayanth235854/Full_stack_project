@@ -1,0 +1,41 @@
+.pro {
+    margin: 100px auto;
+    max-width: 600px;
+    padding: 20px;
+    color: white;
+    background: #17b5e1;
+}
+.head {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.inps {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+.inp {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.sumcontain {
+    margin-top: 20px;
+    margin-left: 36.5vh;
+}
+  
+.sumit {
+    background-color: #6220e6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+  
+.sumit:hover {
+    background-color: #1bc9c6;
+}

@@ -1,0 +1,49 @@
+.inmates-check-in-out {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.inmates-check-in-out h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.inmates-check-in-out form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.inmates-check-in-out label {
+    margin-bottom: 8px;
+    color: #333;
+}
+  
+.inmates-check-in-out input[type="text"],
+.inmates-check-in-out input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+  
+.inmates-check-in-out button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.inmates-check-in-out button:hover {
+    background-color: #45a049;
+}
+  
